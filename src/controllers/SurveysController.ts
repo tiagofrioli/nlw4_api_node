@@ -2,32 +2,31 @@ import { getCustomRepository } from "typeorm";
 import { SurveysRepository } from "../repositories/SurveysRepository";
 import { Request, Response } from 'express';
 
-class SurveyController{
-
-    async create(request: Request, response:Response){
-
+class SurveysController {
+    async create(request: Request, response: Response) {
         const { title, description } = request.body;
 
-        const surveyRepository = getCustomRepository(SurveysRepository);
+        const surveysRepository = getCustomRepository(SurveysRepository);
 
-        const survey = surveyRepository.create({
+        const survey = surveysRepository.create({
             title,
             description
         });
 
-        await surveyRepository.save(survey);
+        await surveysRepository.save(survey);
 
         return response.status(201).json(survey);
     }
 
-    async show(request: Request, response:Response){
-
-        const surveysRepository = getCustomRepository(SurveysRepository);
+    // Uma função
+    async show(request: Request, response: Response) {
+        const surveysRepository = getCustomRepository(SurveysRepository)
 
         const all = await surveysRepository.find();
 
+        //Retornando todas as listas
         return response.json(all);
     }
 }
 
-export { SurveyController }
+export { SurveysController }
