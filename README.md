@@ -11,7 +11,7 @@
 <p align = "center"> API densenvolvida na Semana NLW4 da Rocketseat </p>
 
 <h4 align="center"> 
-	🚧 API em NodeJS 🚀 Em construção...🚧
+	🚧 API em NodeJS 🚀
 </h4>
 
 ### Features
@@ -31,9 +31,8 @@
 
 - Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Node.js](https://nodejs.org/en/) + [NPM](https://www.npmjs.com/get-npm),  [Yarn](https://yarnpkg.com/), [VSCode](https://code.visualstudio.com/) e configurações.
-- Além disto é bom ter um testador de API's para trabalhar com o código como [Postman](https://www.postman.com/) e um versionador de código como o [Git](https://git-scm.com)
-- Bônus¹: No seu navegador Google Chrome instale a Json Viewer e nas opções dela altere o tema para "Dracula". Sua página localhost ficará irada 🤘
-- Bônus²: Caso ainda esteja com dúvidas em como configurar o ambiente e necessite de uma passo a passo bem detalhado pode conferir [aqui](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
+- Além disto, para testar as requisições da API você terá de instalar o [Postman](https://www.postman.com/) 
+- Caso ainda esteja com dúvidas em como configurar o ambiente e necessite de uma passo a passo bem detalhado pode conferir [aqui](https://www.notion.so/Configura-es-do-ambiente-Node-js-ae9fea3f78894139af4268d198294e2a)
 
 ### 🎲 Rodando o Back End (servidor)
 
